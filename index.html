@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="당신이 원하는 정보도, 티켓도 모두 GETTING"
+    />
+    <meta
+      name="keywords"
+      content="포트폴리오, 공연 예매 사이트, 인덱스 리뉴얼"
+    />
+    <meta name="author" content="안다솜" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>GETIX</title>
+  </head>
+  <body>
+    <!-- 개인 작업 -->
+    <!-- 공연 예매 사이트 UX/UI -->
+    <!-- YES24와 인터파크를 보며 리뉴얼 구상 -->
+    <header class="header">
+      <h1 class="logo">
+        <a href="#">GETIX</a>
+      </h1>
+      <div class="wrap">
+        <ul class="header-nav">
+          <!-- script navMenuHTML -->
+        </ul>
+        <div class="full-dropdown">
+          <div class="dropdown-columns">
+            <!-- 모든 서브메뉴가 세로로 나열 fullDropdownHTML -->
+          </div>
+        </div>
+      </div>
+      <div class="utility-menu">
+        <button>
+          <i class="fas fa-search"></i>
+        </button>
+        <a href="#"><i class="fa-regular fa-user"></i></a>
+        <a href="#"><i class="fa-solid fa-ticket"></i></a>
+      </div>
+    </header>
+    <section class="hero-section">
+      <div class="main-banner">메인배너</div>
+    </section>
+    <section class="personnalized-section wrap disN">
+      <div class="title-box flex space-between baseline">
+        <h3>내가 구독 중인 소식</h3>
+        <ul class="news-type-list flex">
+          <!-- script newsTabMenu -->
+        </ul>
+      </div>
+      <ul class="news-container flex">
+        <!-- script newsContents -->
+      </ul>
+      <div class="btn-box">
+        <button>소식 더 보기</button>
+      </div>
+    </section>
+    <section class="coming-section wrap">
+      <div class="title-box flex space-between baseline">
+        <h3>오픈 예정</h3>
+        <ul class="performance-type-list">
+          <!-- script mainCatTap -->
+        </ul>
+      </div>
+      <div class="slide-section">
+        <ul class="slide-container flex">
+          <!-- script comingSoonList -->
+        </ul>
+      </div>
+      <div class="btn-box">
+        <button>공연 더 보기</button>
+      </div>
+    </section>
+    <section class="ranking-section wrap">
+      <div class="title-box flex space-between baseline">
+        <h3>실시간 랭킹</h3>
+        <ul class="performance-type-list">
+          <!-- script mainCatTap -->
+        </ul>
+      </div>
+      <ul class="ranking-list-container">
+        <li>
+          <span class="rank-num">1</span
+          ><span class="performance-name">공연명</span>
+        </li>
+      </ul>
+      <div class="slide-section">
+        <ul class="slide-container">
+          <!-- script rankingList -->
+        </ul>
+      </div>
+    </section>
+    <section class="mini-banner-section wrap">
+      <div class="banner">미니 배너</div>
+    </section>
+    <section class="review-section wrap">
+      <div class="title-box flex space-between baseline">
+        <h3>관람객이 추천하는</h3>
+        <ul class="performance-type-list">
+          <!-- script mainCatTap -->
+        </ul>
+      </div>
+      <ul class="review-container flex">
+        <!-- script reviewList -->
+      </ul>
+      <div class="btn-box">
+        <button>공연 더 보러가기</button>
+      </div>
+    </section>
+    <section class="contents-section wrap">
+      <h3>금주의 콘텐츠</h3>
+      <ul class="content-container">
+        <li>
+          <div class="img-box">
+            <a href="#">
+              <img src="" alt="" />
+            </a>
+          </div>
+          <div class="text-box">
+            <p class="content-type">content type</p>
+            <p class="content-title">content title</p>
+            <a href="#">공연 정보 보러가기</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

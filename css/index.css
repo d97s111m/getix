@@ -1,0 +1,223 @@
+/* header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 99;
+  color: #222;
+  background-color: #ffffffc7;
+  border-bottom: solid 2px #efefef;
+  display: flex;
+  align-items: center;
+}
+
+.header .wrap {
+  margin: 0;
+}
+
+.header .logo {
+  width: 350px;
+  text-align: right;
+}
+
+.header .header-nav {
+  text-align: center;
+}
+
+.header .header-nav li {
+  display: inline-block;
+  padding: 0 10px;
+  transition: 0.3s ease-in-out;
+}
+
+/* .header .header-nav:hover li {
+  width: 110px;
+} */
+
+.header .wrap .full-dropdown {
+  display: none;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  z-index: 99;
+}
+
+.header .full-dropdown .dropdown-columns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.header .full-dropdown .dropdown-columns .column {
+  flex: 0 0 110px;
+}
+
+/* hero section */
+.hero-section {
+  padding-top: 0;
+}
+.hero-section .main-banner {
+  height: 650px;
+  background-color: #afafaf;
+}
+
+/* news section */
+
+.personnalized-section .news-type-list {
+  gap: 20px;
+}
+
+.personnalized-section .news-type-list li {
+  padding: 3px 10px;
+  border-radius: 16px;
+  background-color: #dfdfdf;
+  cursor: pointer;
+}
+
+.personnalized-section .news-type-list li.all {
+  background-color: #aaa;
+}
+
+.personnalized-section .news-container {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.personnalized-section .news-container li {
+  flex: 0 0 calc(50% - 10px);
+  gap: 20px;
+}
+
+.personnalized-section .news-container li .img-box {
+  width: 100px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.personnalized-section .news-container li .img-box img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.personnalized-section .news-container .text-box {
+  flex: 0 0 calc(100% - 120px);
+  padding: 3px 0;
+}
+
+.personnalized-section .news-container .news-type {
+  font-size: 1.2rem;
+  color: #aaa;
+  line-height: 1;
+}
+
+.personnalized-section .news-container .performance-name {
+  font-size: 2rem;
+  font-weight: 500;
+  height: 6rem;
+}
+
+.personnalized-section .news-container .date {
+  font-size: 1.4rem;
+  color: #666;
+  text-align: right;
+}
+
+/* coming section */
+.coming-section .slide-section {
+  overflow-x: auto;
+}
+
+.coming-section .slide-container {
+  align-items: start;
+  gap: 20px;
+}
+
+.coming-section .slide-container li {
+  width: calc((1200px - 60px) / 4);
+  flex-shrink: 0;
+}
+
+/* review section */
+.review-section .review-container {
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.review-section .review-container li {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+  width: calc((100% - 20px) / 2);
+  flex-shrink: 0;
+  background-color: #f8f6f6;
+  padding: 15px;
+}
+
+.review-section .review-container .img-box {
+  width: 180px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.review-section .review-container .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.review-section .review-container .performance-name {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 4rem;
+}
+
+.review-section .review-container .review-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.review-section .review-container .keyword span {
+  display: inline-block;
+  margin-right: 10px;
+  color: #666;
+  font-size: 1.4rem;
+}
+
+.review-section .review-container .review-content {
+  -webkit-line-clamp: 4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+  line-height: 1.2;
+}
+
+.review-section .review-container .review-info-box {
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.review-section .review-info-box .date {
+  color: #222;
+  font-size: 1.2rem;
+}
+
+.review-section .review-info-box .score {
+  font-size: 1.8rem;
+  font-weight: 600;
+}

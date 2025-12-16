@@ -1,0 +1,70 @@
+:root {
+  --desk: 1200px;
+}
+
+/* layout */
+section {
+  padding-top: 100px;
+}
+
+.wrap {
+  width: var(--desk);
+  margin: 0 auto;
+}
+
+.title-box {
+  margin-bottom: 30px;
+}
+
+.img-box {
+  line-height: 0;
+  font-size: 0;
+}
+
+/* position */
+.pos-rel {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.baseline {
+  align-items: baseline;
+}
+
+/* font */
+h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+/* button */
+
+button {
+  padding: 5px 20px;
+  border-radius: 24px;
+  background-color: #efefef;
+}
+
+.btn-box {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* 공통 스타일 */
+.performance-type-list {
+  display: flex;
+  gap: 20px;
+}
+
+.performance-type-list li {
+  padding: 5px 16px;
+  border-radius: 20px;
+  background-color: #efefef;
+}

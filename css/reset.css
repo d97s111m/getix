@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button {
+  display: inline-block;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  outline: none;
+}
+
+/* font-size */
+html {
+  font-size: 62.5%; /* 16px의 62.5% = 10px */
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
